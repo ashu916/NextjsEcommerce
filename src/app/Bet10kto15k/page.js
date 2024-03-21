@@ -27,7 +27,7 @@ async function bet10kto15k () {
   
   
    return(
-   <div key={index}className='border-y border-gray-400'>
+   <div key={index} className='border-y border-gray-400'>
    <Link className="flex" href={{pathname:'./productdetails',  query:{data:JSON.stringify(item
      
    )}}}>
