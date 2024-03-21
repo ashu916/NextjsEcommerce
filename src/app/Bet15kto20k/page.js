@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 async function getData(){
   try {
-  const res =  await fetch('https://nextjsecommbackend.vercel.app/api/15kto20k')
+  const res =  await fetch('https://nextjsecommbackend.vercel.app/api/bet15kto20k')
  
   return res.json()
   }
