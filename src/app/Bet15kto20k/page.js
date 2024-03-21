@@ -16,7 +16,7 @@ async function getData(){
 }
 
 
- async function bet15kto20k () {
+ async function Bet15kto20k () {
    const data = await getData()
  return(
    <div className = "  container">
@@ -57,4 +57,4 @@ alt='image'/>
   </div>)
 }
 
-export default bet15kto20k
+export default Bet15kto20k
